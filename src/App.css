@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  direction: rtl;
+}
+@font-face {
+  font-family: 'iran-sans';
+  src: url('./fonts/iran-sans.ttf');
+}
+@font-face {
+  font-family: 'vazir';
+  src: url('./fonts/Vazirmatn-Medium.ttf');
+}
+@font-face {
+  font-family: 'lalezar';
+  src: url('./fonts/lalezar.ttf');
+}
+.container-topbar {
+  background: linear-gradient(261deg, #80B3F4 0%, #9EB8D9 54.81%, #CCC4FA 100%);
+  height: 467px;
+}
+header {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  color: white;
+  margin: 4vw;
+  text-decoration: none;
+  font-family: 'vazir';
+}
+.btn {
+  font-family: 'iran-sans';
+  border-radius: 10px;
+  background: #3CB06B;
+}
+
+.title {
+  font-family: 'lalezar';
+}
+.paragraph {
+  font-family: 'vazir';
+}
+.wrapper {
+  display: flex;
+}
+.content {
+  margin: 110px;
+}
+.title {
+  padding: 20px;
+  color: #fff;
+}
+.paragraph {
+  color: #fff;
+  padding: 5px;
+}
+.btn-contact {
+  font-family: 'iran-sans';
+  border-radius: 10px;
+  padding: 7px;
+  background: transparent;
+  color: #fff;
+  border: 3px solid #3CB06B;
+}
+.topic {
+  text-align: center;
+}
+/* cards start*/
+.article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  margin: 3vw;
+  text-align: center;
+}
+/* cards ends */
+/* team start */
+.team {
+  text-align: center;
+}
+
+.team-title {
+  text-align: center;
+}
+.team {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  text-align: center;
+}
+.border-card {
+  margin: 2vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  border-radius: 10px;
+border: 3px solid #CF80F4;
+background: rgba(217, 217, 217, 0.00);
+max-width: max-content;
+padding: 5px;
+flex-shrink: 0;
+}
+.profile {
+  display: flex;
+  /* justify-content: center; */
+  /* flex-direction: column; */
+}
+.profile-image {
+  margin-top: -60px;
+}
+.profile-name {
+  color: #000;
+font-family: Sansation;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.profile-skills {
+  color: #000;
+font-family: Alumni Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.profle-experience {
+  color: #000;
+font-family: Amiri;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 184.615% */
+}
+.profile-readmore {
+}
+.profile {
+  text-align: center;
+}
+.team-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comingsoon {
+  display: none;
+}
+/* team end */
+
+
+
+
+/* responsive */
+@media only screen and (max-width: 1077px) {
+  html,body {
+    background: linear-gradient(261deg, #80B3F4 0%, #9EB8D9 54.81%, #CCC4FA 100%);
+    height: 100%;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container-topbar {
+    display: none;
+  }
+  .comingsoon {
+    display: block;
+    text-align: center;
+    padding-top: 50%;
+  }
+  .app {
+    position: relative;
+  }
+}
